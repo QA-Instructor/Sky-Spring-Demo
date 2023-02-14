@@ -25,7 +25,7 @@ public class PersonController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String greeting() {
-        return "Hello, World!";
+        return "Hello, World!\nThis Spring boot app is running in AWS\nHow cool is that?";
     }
 
     @PostMapping("/create")
